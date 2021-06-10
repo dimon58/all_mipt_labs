@@ -1,0 +1,30 @@
+borders:
+  x: -10
+  y: -5
+  width: 20
+  height: 10
+
+
+invisible_segments:
+- end: !!python/tuple
+  - 10
+  - 0
+  radius: 0
+  start: !!python/tuple
+  - -10
+  - 0
+
+
+MainCharacter:
+  brain:
+    name: ManualController
+    init:
+      config: 'config_wasd.yaml'
+  class: MainCharacter
+  vector:
+  - 0
+  - 0.1
+entities: {}
+
+objects: {}
+background: base

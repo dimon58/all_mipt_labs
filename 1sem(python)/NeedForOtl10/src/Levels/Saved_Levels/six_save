@@ -1,0 +1,369 @@
+MainCharacter:
+  brain:
+    init:
+      config: config_wasd.yaml
+    name: ManualController
+  class: MainCharacter
+  vector:
+  - -9.48
+  - -4.419999999999999
+borders:
+  height: 10
+  width: 20
+  x: -10
+  y: -5
+entities:
+  0:
+    brain:
+      init:
+        config: config_arrows.yaml
+      name: ManualController
+    class: Difurmen
+    vector:
+    - 8.559999999999997
+    - -4.139999999999999
+invisible_segments: {}
+objects:
+  0:
+    class: Fridge
+    init:
+      angle: 0.0
+      lifetime: 5
+      type_: 2
+      x: -6.879999999999999
+      y: -4.939999999999999
+      lifetime: .inf
+  1:
+    class: Fridge
+    init:
+      angle: 0.0
+      lifetime: 5
+      type_: 2
+      x: -5.0
+      y: -3.119999999999999
+      lifetime: .inf
+  2:
+    class: Fridge
+    init:
+      angle: 0.0
+      lifetime: 5
+      type_: 2
+      x: -3.6999999999999993
+      y: -1.7
+      lifetime: .inf
+  3:
+    class: Closet
+    init:
+      angle: 0.0
+      lifetime: 5
+      type_: 2
+      x: -6.24
+      y: -3.539999999999999
+      lifetime: .inf
+  4:
+    class: Closet
+    init:
+      angle: 0.0
+      lifetime: 5
+      type_: 2
+      x: -4.619999999999999
+      y: -1.339999999999999
+      lifetime: .inf
+  5:
+    class: Closet
+    init:
+      angle: 0.0
+      lifetime: 5
+      type_: 2
+      x: -6.979999999999999
+      y: 0.120000000000001
+      lifetime: .inf
+  6:
+    class: Closet
+    init:
+      angle: 0.0
+      lifetime: 5
+      type_: 2
+      x: -8.5
+      y: 1.700000000000001
+      lifetime: .inf
+  7:
+    class: Closet
+    init:
+      angle: 0.0
+      lifetime: 5
+      type_: 2
+      x: -8.5
+      y: 1.6999999999999993
+      lifetime: .inf
+  8:
+    class: Closet
+    init:
+      angle: 0.0
+      lifetime: 5
+      type_: 2
+      x: -8.5
+      y: 1.6999999999999993
+      lifetime: .inf
+  9:
+    class: Closet
+    init:
+      angle: 0.0
+      lifetime: 5
+      type_: 2
+      x: -5.020000000000001
+      y: 2.1
+      lifetime: .inf
+  10:
+    class: Closet
+    init:
+      angle: 0.0
+      lifetime: 5
+      type_: 2
+      x: -3.960000000000001
+      y: 2.1
+      lifetime: .inf
+  11:
+    class: Closet
+    init:
+      angle: 0.0
+      lifetime: 5
+      type_: 2
+      x: -2.9399999999999995
+      y: 2.1
+      lifetime: .inf
+  12:
+    class: Closet
+    init:
+      angle: 0.0
+      lifetime: 5
+      type_: 2
+      x: -1.8399999999999999
+      y: 2.1
+      lifetime: .inf
+  13:
+    class: Closet
+    init:
+      angle: 0.0
+      lifetime: 5
+      type_: 2
+      x: -1.8399999999999999
+      y: 2.1
+      lifetime: .inf
+  14:
+    class: Closet
+    init:
+      angle: 0.0
+      lifetime: 5
+      type_: 2
+      x: -0.6999999999999993
+      y: 2.1
+      lifetime: .inf
+  15:
+    class: Closet
+    init:
+      angle: 0.0
+      lifetime: 5
+      type_: 2
+      x: 0.3999999999999986
+      y: 2.1
+      lifetime: .inf
+  16:
+    class: Closet
+    init:
+      angle: 0.0
+      lifetime: 5
+      type_: 2
+      x: 1.4600000000000009
+      y: 2.1
+      lifetime: .inf
+  17:
+    class: Closet
+    init:
+      angle: 0.0
+      lifetime: 5
+      type_: 2
+      x: 2.5799999999999983
+      y: 2.1
+      lifetime: .inf
+  18:
+    class: Closet
+    init:
+      angle: 0.0
+      lifetime: 5
+      type_: 2
+      x: 3.6799999999999997
+      y: 2.1
+      lifetime: .inf
+  19:
+    class: Fridge
+    init:
+      angle: 0.0
+      lifetime: 5
+      type_: 2
+      x: 7.079999999999998
+      y: -4.9399999999999995
+      lifetime: .inf
+  20:
+    class: Fridge
+    init:
+      angle: 0.0
+      lifetime: 5
+      type_: 2
+      x: 5.2
+      y: -2.92
+      lifetime: .inf
+  21:
+    class: Fridge
+    init:
+      angle: 0.0
+      lifetime: 5
+      type_: 2
+      x: 4.259999999999998
+      y: -1.7
+      lifetime: .inf
+  22:
+    class: Closet
+    init:
+      angle: 0.0
+      lifetime: 5
+      type_: 2
+      x: 4.699999999999999
+      y: -1.3600000000000003
+      lifetime: .inf
+  23:
+    class: Closet
+    init:
+      angle: 0.0
+      lifetime: 5
+      type_: 2
+      x: 6.140000000000001
+      y: -3.3200000000000003
+      lifetime: .inf
+  24:
+    class: Closet
+    init:
+      angle: 0.0
+      lifetime: 5
+      type_: 2
+      x: -7.499999999999998
+      y: -5.0
+      lifetime: .inf
+  25:
+    class: Closet
+    init:
+      angle: 0.0
+      lifetime: 5
+      type_: 2
+      x: -7.499999999999998
+      y: -5.0
+      lifetime: .inf
+  26:
+    class: Closet
+    init:
+      angle: 0.0
+      lifetime: 5
+      type_: 2
+      x: 7.259999999999998
+      y: -5.02
+      lifetime: .inf
+  27:
+    class: Closet
+    init:
+      angle: 0.0
+      lifetime: 5
+      type_: 2
+      x: 4.779999999999998
+      y: 2.1
+      lifetime: .inf
+  28:
+    class: Closet
+    init:
+      angle: 0.0
+      lifetime: 5
+      type_: 2
+      x: 6.959999999999997
+      y: 0.379999999999999
+      lifetime: .inf
+  29:
+    class: Closet
+    init:
+      angle: 0.0
+      lifetime: 5
+      type_: 2
+      x: 8.559999999999999
+      y: 1.6600000000000001
+      lifetime: .inf
+  30:
+    class: Closet
+    init:
+      angle: 0.0
+      lifetime: 5
+      type_: 2
+      x: -2.9000000000000004
+      y: -1.1399999999999988
+      lifetime: .inf
+  31:
+    class: Closet
+    init:
+      angle: 0.0
+      lifetime: 5
+      type_: 2
+      x: -2.200000000000001
+      y: -1.7799999999999985
+      lifetime: .inf
+  32:
+    class: Closet
+    init:
+      angle: 0.0
+      lifetime: 5
+      type_: 2
+      x: -2.200000000000001
+      y: -1.7799999999999985
+      lifetime: .inf
+  33:
+    class: Closet
+    init:
+      angle: 0.0
+      lifetime: 5
+      type_: 2
+      x: -1.2200000000000006
+      y: -1.9799999999999986
+      lifetime: .inf
+  34:
+    class: Closet
+    init:
+      angle: 0.0
+      lifetime: 5
+      type_: 2
+      x: -0.14000000000000057
+      y: -1.9399999999999986
+      lifetime: .inf
+  35:
+    class: Closet
+    init:
+      angle: 0.0
+      lifetime: 5
+      type_: 2
+      x: 0.8999999999999986
+      y: -1.9799999999999986
+      lifetime: .inf
+  36:
+    class: Closet
+    init:
+      angle: 0.0
+      lifetime: 5
+      type_: 2
+      x: 1.9599999999999973
+      y: -1.799999999999999
+      lifetime: .inf
+  37:
+    class: Closet
+    init:
+      angle: 0.0
+      lifetime: 5
+      type_: 2
+      x: 3.0599999999999987
+      y: -1.299999999999999
+      lifetime: .inf
+background: corr

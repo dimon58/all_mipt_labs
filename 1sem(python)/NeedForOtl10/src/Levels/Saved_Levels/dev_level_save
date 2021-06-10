@@ -1,0 +1,79 @@
+borders:
+  x: -10
+  y: -5
+  width: 20
+  height: 20
+
+
+invisible_segments:
+- end: !!python/tuple
+  - 10
+  - 0
+  radius: 0
+  start: !!python/tuple
+  - -10
+  - 0
+
+
+MainCharacter:
+  brain:
+    name: ManualController
+    init:
+      config: 'config_wasd.yaml'
+  class: MainCharacter
+  vector:
+  - 0
+  - 0.1
+
+entities:
+  0:
+    brain:
+      name: ManualController
+      init:
+        config: 'config_arrows.yaml'
+    class: Danilio
+    vector:
+    - 3
+    - 0.1
+
+objects:
+  0:
+    class: Fridge
+    init:
+      x: 2
+      y: 0
+      type_: 0
+      lifetime: 1
+  1:
+    class: AlarmClock
+    init:
+      x: 2.5
+      y: 3
+      type_: 0
+      lifetime: .inf
+  2:
+    class: Closet
+    init:
+      x: 2.2
+      y: 1.5
+      type_: 0
+      angle: 0.76
+      lifetime: .inf
+
+  3:
+    class: Calculator
+    init:
+      x: -2.2
+      y: 1.5
+      type_: 0
+      angle: 0.76
+      lifetime: .inf
+  4:
+    class: TennisBall
+    init:
+      x: -3.2
+      y: 1.5
+      type_: 0
+      angle: 0.76
+      lifetime: .inf
+background: base

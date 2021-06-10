@@ -1,0 +1,14 @@
+name: 'Danilio'
+
+init:
+  width: 0.96
+  height: 1.8
+  mass: 75
+  animations: 'Resources/Animations/DanyaPers.yaml'
+  sounds: 'Resources/Music/States_of_player/configs/danilio.yaml'
+
+properties:
+  description: null
+  max_health: 100
+  fist_damage: 10
+

@@ -1,0 +1,8 @@
+name: 'Difurmen'
+description: null
+init:
+  width: 0.96
+  height: 1.8
+  mass: 75
+  animations: 'Resources/Animations/difurmen.yaml'
+  sounds: 'Resources/Music/States_of_player/configs/difurman.yaml'
